@@ -1,4 +1,3 @@
-knitr::opts_chunk$set(fig.path = "README_figs/README-")
 
 #Use former PRNG
 RNGkind(sample.kind = "Rounding")
