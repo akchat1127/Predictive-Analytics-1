@@ -1,3 +1,5 @@
+knitr::opts_chunk$set(fig.path = "README_figs/README-")
+
 #Use former PRNG
 RNGkind(sample.kind = "Rounding")
 
@@ -488,3 +490,5 @@ pROC::auc(roc2)
 #The pruned decision tree is a far simpler model where seemingly important interaction effects are noted. 
 #Its predictive power is not far off from that of the more complex GLM, and the ease of explaining this model, without worrying about odds ratios,
 #making this the preferred choice
+file.rename(from="scripts/mPredictive Analytics 1.md", 
+            to="README.md")
